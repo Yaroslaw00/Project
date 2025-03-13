@@ -1,0 +1,32 @@
+.container {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+.feedback {
+  display: flex;
+  margin-top: 47px;
+  list-style: none;
+}
+.comment:not(:last-child) {
+  margin-right: 18px;
+}
+.comment {
+  width: 354px;
+  height: 287px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #7a6b6b;
+}
+.name {
+  text-align: center;
+  padding-top: 55px;
+}
+.text {
+  padding-right: 35px;
+  padding-left: 45px;
+}
