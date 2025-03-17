@@ -2,41 +2,44 @@
 }
 .container {
   width: 1200px;
-  height: 100vh;
+
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
 }
-h2 {
+.h2 {
+  display: flex;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+}
+.ul {
+  display: flex;
+  list-style: none;
+}
+.card:not(:last-child) {
+  margin-right: 16px;
+}
+.card {
+  width: 356px;
+  height: 289px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #3b3434;
+  justify-content: center;
+  padding-left: 35px;
+}
+.name {
+  display: flex;
+  text-align: center;
+}
+.text {
   display: flex;
   justify-content: center;
 }
 
-.comment:not(:last-child) {
-  margin-right: 18px;
-}
-.comment {
-  width: 354px;
-  height: 287px;
-  flex-shrink: 0;
-  border-radius: 30px;
-  background: #7a6b6b;
-}
-.name {
-  display: block;
-  text-align: center;
-  padding-top: 50px;
-}
-.text {
-  display: block;
-  text-align: center;
-}
-
 .icon {
-  display: block;
-  align-items: center;
+  display: flex;
   padding-top: 50px;
-  padding-left: 30px;
-  width: 77px;
-  height: 77px;
 }
