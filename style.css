@@ -1,3 +1,5 @@
+* {
+}
 .container {
   width: 1200px;
   height: 100vh;
@@ -23,10 +25,20 @@ h2 {
   background: #7a6b6b;
 }
 .name {
+  display: block;
   text-align: center;
-  padding-top: 55px;
+  padding-top: 50px;
 }
 .text {
-  padding-right: 35px;
-  padding-left: 45px;
+  display: block;
+  text-align: center;
+}
+
+.icon {
+  display: block;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  width: 77px;
+  height: 77px;
 }
