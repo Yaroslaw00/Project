@@ -2,20 +2,36 @@
 }
 .container {
   width: 1200px;
-
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
 }
 .h2 {
-  display: flex;
   justify-content: center;
+  margin: 0 auto;
+  color: #292f36;
+  width: 479px;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58.5px; /* 130% */
+  letter-spacing: 0.22px;
 }
-.flex {
-  display: flex;
+.section {
+  margin: 0 auto;
+  width: 1200px;
+  height: 675px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: #f4f0ec;
 }
+
 .ul {
   display: flex;
+  justify-content: center;
   list-style: none;
 }
 .card:not(:last-child) {
@@ -26,20 +42,54 @@
   height: 289px;
   flex-shrink: 0;
   border-radius: 30px;
-  background: #3b3434;
+  background: #fff;
   justify-content: center;
+  padding-top: 50px;
   padding-left: 35px;
+  padding-right: 30px;
+  padding-bottom: 45px;
+  margin-top: 47px;
+  padding-top: 50px;
+}
+.card-div {
+  display: flex;
 }
 .name {
-  display: flex;
-  text-align: center;
+  padding-left: 20px;
+
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(37.5 / 25);
+  letter-spacing: 0.22px;
+}
+.place {
+  padding-left: 20px;
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(27 / 18);
+  letter-spacing: 0.22px;
 }
 .text {
-  display: flex;
-  justify-content: center;
 }
-
-.icon {
+.p {
+  padding-top: 25px;
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(30 / 20);
+  letter-spacing: 0.22px;
+}
+.img {
   display: flex;
-  padding-top: 50px;
+  width: 100px;
+}
+.icon {
 }
