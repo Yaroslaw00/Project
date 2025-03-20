@@ -6,6 +6,7 @@
   padding-left: 15px;
   margin: 0 auto;
 }
+
 .h2 {
   justify-content: center;
   margin: 0 auto;
@@ -27,6 +28,7 @@
   flex-shrink: 0;
   border-radius: 70px;
   background: #f4f0ec;
+  padding-top: 103px;
 }
 
 .ul {
@@ -92,4 +94,33 @@
   width: 100px;
 }
 .icon {
+}
+.logotype {
+  display: flex;
+  margin-top: 140px;
+  justify-content: space-between;
+  list-style: none;
+  height: 103px;
+}
+.logo-1 {
+  margin-right: 125px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo-2 {
+  margin-right: 110px;
+}
+.logo-3 {
+  margin-right: 89px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo-4 {
+  margin-right: 112px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo-5 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
