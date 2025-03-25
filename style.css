@@ -17,7 +17,7 @@
   font-size: 45px;
   font-style: normal;
   font-weight: 400;
-  line-height: 58.5px; /* 130% */
+  line-height: calc(58.5 / 45);
   letter-spacing: 0.22px;
 }
 .section {
@@ -123,4 +123,79 @@
 .logo-5 {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.h2-blogs {
+  margin-top: 142.98px;
+  padding-bottom: 21px;
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(62.4 / 48);
+  letter-spacing: 0.22px;
+}
+.p-blogs {
+  padding-bottom: 70px;
+  color: #4d5053;
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(33 / 22);
+  letter-spacing: 0.22px;
+}
+.interior-ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  list-style: none;
+}
+.room {
+  padding: 21px 21px 40px 21px;
+  width: 387px;
+  height: 515px;
+  flex-shrink: 0;
+  border-radius: 62px;
+  border: 1px solid #e7e7e7;
+}
+.div-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.button {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #f4f0ec;
+  border-style: none;
+  align-items: center;
+  justify-content: center;
+}
+.h2-room {
+  padding-top: 16px;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(35 / 24);
+  letter-spacing: 0.5px;
+}
+.date {
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.22px;
+  padding-top: 33px;
 }
