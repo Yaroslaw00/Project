@@ -796,6 +796,13 @@
   font-weight: bold;
   text-decoration: none;
   color: #1a1a1a;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 140% */
+  letter-spacing: 0.5px;
 }
 
 .logo img {
@@ -1008,6 +1015,8 @@
   line-height: 33px; /* 150% */
   letter-spacing: 0.22px;
   padding-top: 15px;
+  padding-right: 83px;
+  padding-bottom: 30px;
 }
 .footer {
   margin-top: 130px;
@@ -1024,6 +1033,7 @@
   align-items: center;
   gap: 21.797px;
   list-style: none;
+  padding-right: 160px;
 }
 .adress-2 {
   display: flex;
@@ -1035,6 +1045,7 @@
   list-style: none;
   align-items: center;
   gap: 30px;
+  padding-right: 138px;
 }
 .adress-3 {
   display: flex;
@@ -1045,4 +1056,71 @@
   list-style: none;
 
   gap: 29px;
+}
+.nav {
+  display: flex;
+}
+.li-adress {
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  letter-spacing: 0.22px;
+  width: 200px;
+}
+.li-adress-main {
+  width: 200px;
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37.5px; /* 150% */
+  letter-spacing: 0.22px;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+
+  height: 104px;
+  flex-shrink: 0;
+  border-top: #1a1a1a;
+  border-top-style: groove;
+  padding-top: 35px;
+  padding-bottom: 36px;
+  margin-top: 110px;
+}
+.Copyright {
+  width: 1000px;
+  flex-shrink: 0;
+  color: #4d5053;
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  letter-spacing: 0.22px;
+}
+.Victorflow {
+  color: #cda274;
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  letter-spacing: 0.22px;
+}
+.Webflow {
+  color: #cda274;
+  text-align: center;
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 150% */
+  letter-spacing: 0.22px;
 }
