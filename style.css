@@ -1017,7 +1017,7 @@
 }
 .adress-1 {
   display: flex;
-  margin: 0 auto;
+  text-align: center;
   width: 210.719px;
   padding: 0px 60px 30px 0px;
   flex-direction: column;
@@ -1027,7 +1027,7 @@
 }
 .adress-2 {
   display: flex;
-  margin: 0 auto;
+  text-align: center;
   width: 150.719px;
   height: 285px;
   padding-right: 26.797px;
@@ -1038,11 +1038,11 @@
 }
 .adress-3 {
   display: flex;
-  margin: 0 auto;
+  text-align: center;
   width: 337.156px;
   padding: 0.203px 15.953px 0.797px 0.203px;
   flex-direction: column;
   list-style: none;
-  align-items: center;
+
   gap: 29px;
 }
